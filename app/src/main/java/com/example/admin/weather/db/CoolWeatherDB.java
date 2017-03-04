@@ -5,9 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.admin.coolweather.model.City;
-import com.example.admin.coolweather.model.Country;
-import com.example.admin.coolweather.model.Province;
+import com.example.admin.weather.model.City;
+import com.example.admin.weather.model.Country;
+import com.example.admin.weather.model.Province;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -106,7 +106,7 @@ public class CoolWeatherDB {
         return list;
     }
     /**
-     * 将Couny实例存储到数据库。
+     * 将Country实例存储到数据库。
      */
     public void saveCounty(Country country) {
         if (country != null) {
