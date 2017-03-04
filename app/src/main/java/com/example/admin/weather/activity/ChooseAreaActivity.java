@@ -26,6 +26,7 @@ import java.util.List;
 
 /**
  * Created by Admin on 2017/3/3.
+ * 从 ChooseAreaActivity 跳转到 WeatherActivity
  */
 
 public class ChooseAreaActivity extends Activity {
