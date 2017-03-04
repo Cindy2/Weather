@@ -48,6 +48,9 @@ public class WeatherActivity extends Activity implements View.OnClickListener{
         switchCity = (Button) findViewById(R.id.switch_city);
         refershWeather = (Button) findViewById(R.id.refresh_weather);
 
+        switchCity.setOnClickListener(this);
+        refershWeather.setOnClickListener(this);
+
         String countryCode = getIntent().getStringExtra("country_code");
         if (!TextUtils.isEmpty(countryCode)){
             // 有县级代号时就去查询天气
